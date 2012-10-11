@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>AJAX test</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+  <script src="ajax.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <body>
+    <div id="div1" class="divClass">
+      <br />
+      <form>
+        <select name="users" onchange="showUser(this.value)">
+          <option value="">Select a person:</option>
+          <option value="1">Anna</option>
+          <option value="2">Bonnie</option>
+          <option value="3">Cathy</option>
+          <option value="4">Danielle</option>
+        </select>
+      </form>
+      <br />
+    </div>
+    <div id="txtHint"><b>Person info will be listed here.</b></div>
+  </body>
+</html>
+
